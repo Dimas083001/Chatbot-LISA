@@ -1,0 +1,252 @@
+{"intents": [
+    {
+      "tag": "salam",
+      "patterns": ["Hai", "Hei", "Hi", "Halo", "Hola", "Hello", "Wassap", "Yuhuu", "Ada yang di sana?", "Selamat pagi", "Selamat siang", 
+        "Selamat sore", "Selamat malam", "Apakah ini chatbot Tuberkulosis ?", "Apakah ini chatbot TBC?"
+      ],
+      "responses": [
+        "Halo! Selamat datang di chatbot LISA, asisten virtual kesehatan Tuberkulosis. Ada yang bisa saya bantu hari ini?",
+        "Hai! Saya LISA, siap membantu kamu dengan segala informasi mengenai Tuberkulosis. Apa yang ingin kamu ketahui?",
+        "Halo! Bagaimana kabarmu? Jika kamu memiliki pertanyaan seputar Tuberkulosis, jangan ragu untuk bertanya.",
+        "Senang bertemu denganmu! LISA di sini untuk membantumu dengan segala informasi tentang Tuberkulosis. Bagaimana saya bisa membantu?"
+      ]
+    },
+    {
+      "tag": "pagi",
+      "patterns": ["Pagi", "Selamat pagi"],
+      "responses": ["Selamat pagi. Bagaimana perasaan kamu hari ini?"]
+    },
+    {
+      "tag": "siang",
+      "patterns": ["Siang", "Selamat siang"],
+      "responses": ["Selamat siang. Bagaimana kabar kamu hari ini?"]
+    },
+    {
+      "tag": "sore",
+      "patterns": ["Sore", "Selamat sore"],
+      "responses": ["Selamat sore. Apa yang bisa LISA bantu hari ini?"]
+    },
+    {
+      "tag": "malam",
+      "patterns": ["Malam", "Selamat malam"],
+      "responses": ["Selamat malam. Bagaimana kabar kamu?"]
+    },
+    {
+      "tag": "penutup",
+      "patterns": ["Selamat tinggal", "Sampai jumpa", "Dadah", "Goodbye"],
+      "responses": ["Sampai jumpa lagi.", "Semoga harimu menyenangkan!", "Sampai nanti, jangan lupa untuk selalu menjaga kesehatan."]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": ["Terima kasih", "Makasih", "Itu sangat membantu", "Terima kasih atas bantuannya", "Terima kasih infonya"],
+      "responses": ["Sama-sama!", "Dengan senang hati!", "Kapan pun!", "Terima kasih kembali!", "Baik"]
+    },
+    {
+      "tag": "tidak_respon",
+      "patterns": [""],
+      "responses": ["Maaf, saya tidak mengerti.", "Silakan lanjutkan.", "Saya kurang memahami itu.", "Jangan ragu untuk berbicara lebih lanjut."]
+    },
+    {
+      "tag": "tentang_saya",
+      "patterns": ["Ceritakan tentang dirimu", "Siapa kamu?", "Apa yang kamu lakukan?", "Apa namamu?", "Siapa dirimu?"],
+      "responses": ["Saya adalah LISA (Lampung Sehat Asistant). Saya di sini untuk memberikan informasi tentang penyakit TB dan membantu Anda mendapatkan kontak medis jika diperlukan.", "Saya adalah LISA, Chatbot untuk informasi Tuberkulosis. Apakah Anda perlu informasi tentang TB?"]
+    },
+    {
+      "tag": "kemampuan",
+      "patterns": ["Apa yang bisa kamu lakukan?", "Bisa bantu apa?", "Apa kemampuanmu?", "Apa yang dapat kamu bantu?", "Kamu bisa apa saja", "Kamu bisa apa?", "Bisa apa kamu?"],
+      "responses": ["Saya bisa memberikan informasi umum tentang Tuberkulosis, termasuk gejala, pengobatan, dan lokasi layanan kesehatan di Bandar Lampung. Jika saya tidak dapat menjawab, saya bisa mengarahkan Anda ke kontak medis yang sesuai."]
+    },
+    {
+      "tag": "pembuat",
+      "patterns": ["Siapa yang membuatmu?", "Bagaimana kamu dibuat?", "Siapa penciptamu?"],
+      "responses": ["Saya dikembangkan oleh tim Inisiatif Lampung Sehat untuk membantu masyarakat mendapatkan informasi tentang Tuberkulosis."]
+    },
+    {
+      "tag": "nama",
+      "patterns": ["Nama saya ", "Saya bernama ", "Panggil saya "],
+      "responses": ["Senang bertemu dengan kamu! Bagaimana kabar kamu hari ini?", "Nama yang bagus! Ada yang ingin kamu tanyakan tentang Tuberkulosis?"]
+    },
+    {
+      "tag": "bantuan",
+      "patterns": ["Bisakah kamu membantu saya?", "Tolong bantu saya", "Saya butuh bantuan", "Apa yang bisa kamu bantu?", "Tolong dukung saya", "Ya"],
+      "responses": ["Tentu saja. Bagaimana LISA bisa membantu kamu?", "Beritahu LISA masalah Anda agar LISA bisa membantu.", "Ya, tentu saja. Apa yang kamu butuhkan?"]
+    }, 
+
+
+
+    {
+      "tag": "apa_itu_tb",
+      "patterns": [
+        "apa tbc?", "apa itu tb?", "jelasin tbc", "jelasin tb", "tbc apa ya?", "tb itu apa?", "tbc apa?", "tb apa?", "tuberculosis apa?", 
+        "penyakit tbc apa?", "apa sih tbc?", "kenapa tbc?", "kenapa tb?", "jelasin singkat tbc", "tb gimana?", "tbc gimana?",
+        "apa itu tuberkulosis?", "apa itu tuberculosis?", "apa itu penyakit tbc?", "Apa itu tb?", "Jelaskan apa itu tbc",
+        "Tuberkulosis adalah", "Tuberculosis adalah", "Pengertian Tuberculosis", "Pengertian Tuberkulosis", "Tuberkulosis",
+        "Tuberculosis", "Apa itu TBC?", "TBC itu apa?", "Apa yang dimaksud dengan tuberkulosis?", "Jelaskan apa itu Tb",
+        "Apa yang dimaksud dengan tuberculosis?", "Tolong jelaskan tentang tuberkulosis", "Tolong jelaskan tentang tuberculosis", 
+        "Apa penyakit tuberkulosis?", "Apa penyakit tuberculosis?", "TBC itu penyakit apa?", "Apa yang kamu ketahui tentang tb"
+      ],
+      "responses": ["TBC merupakan singkatan dari Tuberkulosis. Yang dimana penyakit ini termasuk dalam golongan menular. Awal mula dari tuberkulosis ialah disebabkan oleh bakteri Mycobacterium Tuberculosis(M.Tb) .Yang dimana bakteri tersebut bisa menyerang siapa saja dan bagian organ tubuh yang diserang biasanya pada paru-paru, tulang belakang, kulit, otak, kelenjar getah bening dan jantung. Penularan dari bakteri ini biasanya melalui udara, yang dimana ketika orang yang terkena TBC itu batuk secara langsung di tempat umum tanpa ditutup dengan tangan, maka kuman tersebut akan keluar dan bertebaran melalui udara dan dapat terhirup oleh orang yang ada disekitarnya yang dapat memungkinkan tertular penyakit ini."
+      ]
+    },
+    {
+      "tag": "gejala_tb",
+      "patterns": [
+        "gejala tb", "gejala tbc", "ciri-ciri tbc", "tanda tbc", "gejala tuberkulosis", "gejala utama tbc", "tanda tb", 
+        "tb ciri-ciri", "tb gejala", "tbc gejala", "apa gejala tbc?", "Apa gejala tb", "gejala awal tbc", "ciri penyakit tb", "bagaimana gejala tbc?", 
+        "tanda tuberkulosis", "apa saja gejala tbc?", "gejala tb yang umum", "apa ciri-ciri tb?", "gejala apa kalau tb?", 
+        "tanda awal tbc", "gejala awal tuberkulosis", "apa tanda penyakit tb?", "Apa saja gejala tuberkulosis?", "Gejala dari tuberkulosis", 
+        "Ciri-ciri penyakit TBC", "Apa tanda-tanda TBC?", "Bagaimana cara mengetahui jika saya terkena TBC?", "Apa gejala TBC yang umum?",
+        "Gejala utama tuberkulosis", "Tanda-tanda tuberkulosis", "Penyakit TBC, gejala",
+        "Apa saja gejala yang harus saya waspadai untuk tuberkulosis?", "Bagaimana saya bisa mengetahui jika saya mengalami tuberkulosis?", 
+        "Gejala-gejala apa yang umumnya muncul pada pasien tuberkulosis?","Apa tanda-tanda tuberkulosis yang sering dialami seseorang?", 
+        "Saya merasa tidak sehat, gejala apa yang bisa menunjukkan tuberkulosis?", "Apa saja gejala awal tuberkulosis yang perlu diperhatikan?", 
+        "Apa perbedaan antara gejala tuberkulosis dan penyakit paru lainnya?", 
+        "Apa yang harus saya lakukan jika mengalami gejala-gejala tuberkulosis?", 
+        "Bagaimana cara membedakan gejala tuberkulosis dengan flu biasa?",
+        "Berapa lama gejala tuberkulosis biasanya berlangsung sebelum harus berkonsultasi dengan dokter?", 
+        "Gejala utama dan tambahan dari tuberkulosis apa saja yang harus saya ketahui?", 
+        "Apa saja manifestasi klinis dari tuberkulosis yang bisa terlihat di rumah?"
+      ],
+      "responses": [
+          "Gejala utama tuberkulosis (TBC) adalah batuk terus-menerus (berdahak maupun tidak berdahak).\n\n Gejala lain yang mungkin terjadi meliputi:\n\n 1. Demam dan meriang dalam jangka waktu yang panjang\n 2. Sesak nafas dan nyeri dadah\n 3. Berat badan menurun\n 4. Ketika batuk terkadang dahak bercampur darah\n 5. Nafsu makan yang menurun\n 6. Berkeringat di malam hari meski tanpa melakukan kegiatan"
+      ]
+    },
+    {
+      "tag": "penyebab_tb",
+      "patterns": [
+        "penyebab TB", "penyebab TBC", "kenapa bisa kena TB", "kenapa bisa kena TBC", "TB disebabkan oleh apa", "mengapa TB menular", 
+        "TBC disebabkan apa", "penularan TB", "bagaimana TB menular", "faktor risiko TB", "bagaimana orang bisa kena TB", 
+        "kenapa orang terkena TBC", "apa penyebab utama TB", "TBC karena apa","Apa penyebab tuberkulosis?", "Apa yang menyebabkan TBC?", 
+        "Mengapa TBC bisa terjadi?", "Apa penyebab penyakit TBC?", "Bagaimana tuberkulosis bisa menular?", "Apa yang menyebabkan tuberkulosis?", "Penyebab TBC itu apa?","Bagaimana cara penyebaran TBC?",
+        "Apa yang membuat seseorang terkena TBC?", "Saya ingin tahu penyebab tuberkulosis", "Apa faktor risiko utama terjadinya TBC?",
+        "Bagaimana bakteri Mycobacterium tuberculosis menyebabkan TBC?", "Apa peran bakteri dalam penyebaran TBC?",
+        "Apa yang menyebabkan infeksi tuberkulosis pada manusia?", "Bisakah Anda menjelaskan bagaimana TBC menyebar?",
+        "Apa saja bakteri yang dapat menyebabkan tuberkulosis?", "Mengapa seseorang bisa tertular TBC dari orang lain?",
+        "Apa faktor yang meningkatkan risiko terkena TBC?", "Bagaimana Mycobacterium tuberculosis menyebabkan penyakit TBC?"
+      ],
+      "responses": [
+          "Tuberkulosis (TBC) merupakan penyakit infeksi yang disebabkan oleh bakteri. Berikut adalah beberapa bakteri yang berkaitan erat dengan infeksi TBC:\n\n1. Mycobacterium tuberculosis\n2. Mycobacterium bovis\n3. Mycobacterium africanum\n4. Mycobacterium microti\n5. Mycobacterium canettii\n\nDi antara bakteri-bakteri tersebut, Mycobacterium tuberculosis (M.TB) adalah yang paling sering ditemukan sebagai penyebab TBC. TBC menular melalui udara bila penderita batuk, bersin dan berbicara dan percikan dahaknya yang mengandung kuman TB melayang-layang di udara dan terhirup oleh orang lain"
+      ]
+    },
+    {
+      "tag": "penularan_tb",
+      "patterns": [
+        "Penularan tb", "Penularan tbc", "Bagaimana TBC menular?","Bagaimana tb menular", 
+        "cara penularan TB", "penyebaran TBC", "cara TBC menyebar", "TBC menyebar bagaimana", "bagaimana TB menular",
+        "mencegah penularan TBC", "penularan tuberkulosis", "TBC menular melalui apa", "penyebaran TB", "TBC menyebar",
+        "Apa penyebab penularan TBC?", "Apa penyebab penularan TB?", "Jelaskan bagaimana cara TBC menyebar.",
+        "Apa yang menyebabkan penularan tuberkulosis?", "Bagaimana cara penularan tuberkulosis?", "Apakah TBC menular melalui udara?",
+        "Bagaimana tuberkulosis bisa menyebar?", "Apa yang harus dilakukan untuk mencegah penularan TBC?",
+        "Tolong beri tahu saya tentang penularan TBC.", "Bagaimana cara TBC menyebar di masyarakat?"
+       ],
+      "responses": ["Sumber penularan adalah percikan ludah (droplet) atau dahak penderita TB. Sumber penularan adalah dahak penderita TB. TB menular melalui udara bila penderita batuk, bersin dan berbicara dan percikan dahaknya yang mengandung kuman TB melayang-layang di udara dan terhirup oleh orang lain."]
+    },
+    {
+      "tag": "risiko_tb",
+      "patterns": [
+        "kelompok risiko TBC", "siapa yang rentan TBC", "siapa yang berisiko TBC",  "siapa yang mudah tertular TBC", "Siapa yang dapat tertular tb",
+        "kelompok berisiko tinggi TBC", "TBC pada siapa lebih berisiko", "siapa yang berisiko TB", "Siapa yang paling berisiko terkena TBC?", 
+        "siapa yang rentan TB", "kelompok tinggi risiko TBC", "risiko TBC pada siapa", "siapa yang bisa terkena TBC", "siapa harus waspada TB", 
+        "risiko tinggi TBC", "siapa yang mudah terkena TBC", "TBC risiko pada siapa", "Siapa saja yang berisiko tinggi terkena tuberkulosis?", 
+        "Siapa yang dapat tertular tbc", "Apa kelompok yang rentan terhadap TBC?", "TBC lebih berisiko pada siapa?", 
+        "Siapa yang harus waspada terhadap tuberkulosis?", "Apa saja risiko terkena TBC?", "Siapa yang paling mudah terinfeksi TBC?", 
+        "Apa kelompok orang yang berisiko tinggi terkena TBC?", "Siapa yang harus lebih berhati-hati terhadap TBC?"
+      ],
+      "responses": [
+        "Beberapa kelompok yang paling berisiko terkena TBC meliputi:\n\n - Orang dengan sistem kekebalan tubuh yang lemah, seperti penderita HIV/AIDS\n - Anak-anak dan orang tua\n - Orang yang hidup atau bekerja di lingkungan dengan kepadatan penduduk yang tinggi, seperti penjara, tempat penampungan tunawisma, atau fasilitas kesehatan\n - Orang yang tinggal di atau berasal dari daerah dengan tingkat TBC yang tinggi\n - Petugas kesehatan yang sering berhubungan dengan pasien TBC"
+      ]
+    },
+    {
+      "tag": "proses_infeksi_tb",
+      "patterns": [
+        "Proses infeksi"," Bagaimana infeksi tb", "Bagaimana infeksi tbc", "Bagaimana proses infeksi tb", "Bagaimana proses infeksi tbc",
+        "proses infeksi TBC", "proses TB", "bagaimana TB infeksi", "infeksi TB bagaimana", "proses masuk bakteri TBC",
+        "bagaimana TBC masuk", "proses bakteri TBC", "bagaimana bakteri TBC bekerja", "bagaimana TBC mempengaruhi tubuh",
+        "TBC infeksi", "infeksi bakteri TBC", "TBC proses masuk", "TBC dan tubuh", "TBC bagaimana masuk", 
+        "infeksi bakteri TBC", "bagaimana bakteri TBC bekerja", "TBC masuk tubuh bagaimana", "TBC proses infeksi",
+        "proses TBC di tubuh", "TBC masuk ke tubuh bagaimana", "bagaimana bakteri TB mempengaruhi tubuh", "TBC masuk ke paru-paru", 
+        "Bagaimana bakteri penyebab TBC masuk ke tubuh?", "Jelaskan proses infeksi TBC.", "Bagaimana prosesnya didalam tubuh", 
+        "Apa yang terjadi setelah bakteri TBC terhirup?", "Bagaimana bakteri TBC mempengaruhi tubuh setelah dihirup?", 
+        "Apa yang terjadi ketika bakteri TBC masuk ke paru-paru?", "Proses infeksi TBC seperti apa?",
+        "Apa tiga kemungkinan setelah bakteri TBC masuk ke dalam tubuh?", "Bagaimana tubuh menangani bakteri TBC setelah terhirup?",
+        "Apa yang terjadi pada bakteri TBC setelah masuk ke saluran pernapasan?", "bagaimana tb ini prosesnya bisa masuk kedalam tubuh",
+        "bagaimana tbc ini prosesnya bisa masuk kedalam tubuh"
+      ],
+      "responses": [
+        "Bakteri penyebab TBC masuk melalui inhalasi, yaitu terhirup melalui hidung atau mulut. Dari saluran pernapasan, bakteri akan terus masuk hingga mencapai alveolus di paru-paru. Di sana, bakteri akan bertemu dan dimakan oleh makrofag, salah satu jenis sel darah putih yang berfungsi sebagai bagian dari sistem imun tubuh manusia. Terdapat tiga kemungkinan yang bisa terjadi setelah bakteri TBC masuk ke dalam tubuh:\n\n - Pada kondisi pertama, bakteri TBC dapat dihilangkan oleh sistem kekebalan tubuh yang baik sehingga orang tersebut tidak sakit TBC.\n - Pada kondisi kedua, bakteri TBC dipagari oleh sistem kekebalan tubuh sehingga bakteri TBC tetap hidup namun dalam kondisi dormant (tidur) dan tidak menimbulkan penyakit. Kondisi ini disebut sebagai Infeksi Laten TBC.\n - Pada kondisi ketiga, sistem kekebalan tubuh tidak mampu melawan bakteri TBC, sehingga bakteri TBC dapat berkembang biak di dalam tubuh dan menimbulkan sakit TBC."
+      ]
+    },
+    {
+      "tag": "perbedaan_tb_aktif_tb_laten",
+      "patterns": [
+        "perbedaan tb laten dan tb aktif", "mengapa tb laten dan tb aktif berbeda",
+        "Apa perbedaan antara TBC laten dan TBC aktif?", "Jelaskan TBC laten dan TBC aktif.", "Bagaimana TBC laten berbeda dari TBC aktif?", 
+        "sebutkan perbedaan antara tb laten dan tb aktif", "sebutkan perbedaan antara tbc laten dan tbc aktif"
+      ],
+      "responses": [
+        " TBC terbagi menjadi dua jenis yaitu TBC laten dan TBC aktif. TBC laten berarti bakteri ada di dalam tubuh tetapi tidak menyebabkan gejala dan tidak menular. Sebaliknya, TBC aktif adalah kondisi di mana bakteri aktif berkembang biak, menimbulkan gejala, dan bisa menular ke orang lain."
+      ]
+    },
+    {
+      "tag": "tb_aktif",
+      "patterns": [
+        "Apa itu TBC aktif?", "Apa itu TB aktif?", "Jelaskan tentang TBC aktif.", "Bagaimana gejala TBC aktif?", 
+        "Apa yang harus dilakukan jika seseorang memiliki TBC aktif?", "Bagaimana cara menangani TBC aktif?", 
+        "Apa pengobatan untuk TBC aktif?", "Apa yang terjadi jika pengobatan TBC aktif tidak selesai?", 
+        "Apa yang harus diperhatikan dalam pengobatan TBC aktif?", "Bagaimana cara mencegah penularan dari TBC aktif?", 
+        "TBC aktif apa itu", "TB aktif apa itu", "gejala TBC aktif", "pengobatan TBC aktif", 
+        "cara menangani TBC aktif", "TBC aktif penularan", "TBC aktif cara mencegah", 
+        "apa yang harus dilakukan untuk TBC aktif", "TBC aktif apa yang harus diperhatikan", 
+        "cara mencegah TBC aktif", "apa itu TBC aktif dan pengobatannya", "cara mengatasi TBC aktif", 
+        "TBC aktif apa yang perlu diperhatikan", "TBC aktif dan pengobatan", "gejala TB aktif", 
+        "penanganan TBC aktif", "pengobatan TB aktif", "cara mencegah TBC", "TBC aktif apa saja", 
+        "penularan TBC aktif", "TBC aktif pengobatan dan pencegahan", "TBC aktif dan gejalanya",
+        "Apa yang terjadi pada tubuh selama infeksi TBC aktif?", "Bagaimana pengobatan TBC aktif mempengaruhi tubuh secara keseluruhan?",
+        "Apa langkah-langkah yang harus diambil jika terapi TBC aktif tidak menunjukkan kemajuan?", 
+        "Bagaimana cara mendeteksi komplikasi dari TBC aktif selama proses pengobatan?", 
+        "Apa saja tanda-tanda bahwa pengobatan TBC aktif mungkin tidak efektif?", 
+        "Bagaimana cara mengatasi efek samping dari pengobatan TBC aktif?", 
+        "Apa yang harus diperhatikan dalam perawatan jangka panjang untuk pasien dengan TBC aktif?", 
+        "Bagaimana cara menangani TBC aktif pada anak-anak atau populasi khusus?", 
+        "Apa strategi pencegahan yang efektif untuk mencegah penularan TBC aktif di komunitas?", 
+        "Bagaimana pengobatan TBC aktif berbeda antara pasien dewasa dan anak-anak?",
+        "Apa yang harus dilakukan jika terpapar bakteri TBC aktif tetapi tidak menunjukkan gejala?", 
+        "Apa yang harus dilakukan jika hasil tes menunjukkan resistensi terhadap obat TB pada TBC aktif?"
+      ],
+      "responses": [
+        "Suatu keadaan dimana bakteri penyebab TBC aktif berkembang biak, menimbulkan gejala, dan bisa menular ke orang lain. Gejala yang ditimbulkan seperti batuk terus menerus (berdahak maupun tidak berdahak), Sesak nafas, nyeri dada, berat badan menurun, berkeringat dimalam hari padahal tidak melakukan aktivitas dan lain sebaginya. "
+      ]
+    },
+    {
+      "tag": "tb_laten",
+      "patterns": [
+        "Apa itu TBC laten?", "Apa itu TB laten?", "Jelaskan tentang TBC laten.", "Apa yang terjadi pada tubuh selama fase TBC laten?",
+        "Apa yang dimaksud dengan TBC laten?", "Apa yang harus diperhatikan dalam TBC laten?", "Bagaimana cara mengetahui jika seseorang memiliki TBC laten?",
+        "Apa gejala dari TBC laten?", "Bagaimana TBC laten bisa berkembang menjadi aktif?", "Jelaskan secara detail apa itu tb laten",
+        "Apa perbedaan antara TBC laten dan TBC aktif?", "Bagaimana cara diagnosis TBC laten?", "Jelaskan secara detail apa itu tbc laten",
+        "Apa yang harus dilakukan jika seseorang didiagnosis dengan TBC laten?", "Bagaimana TBC laten mempengaruhi sistem kekebalan tubuh?", 
+        "Apa yang harus dilakukan untuk mencegah TBC laten berkembang menjadi TBC aktif?", 
+        "Apa langkah-langkah perawatan untuk TBC laten?", "Apakah TBC laten menular ke orang lain?", 
+        "Apa yang menyebabkan TBC laten menjadi aktif?", "Bagaimana cara mengatasi TBC laten untuk mencegah infeksi aktif?", 
+        "Bagaimana pengobatan untuk TBC laten dilakukan?", "Apa yang harus diperhatikan dalam pemantauan TBC laten?", 
+        "Apa gejala awal yang harus diperhatikan jika TBC laten berkembang menjadi TBC aktif?", 
+        "Berapa lama seseorang bisa tetap dengan TBC laten sebelum menjadi aktif?", 
+        "Apa risiko kesehatan jika TBC laten tidak diobati?", "Bagaimana cara mengetahui apakah TBC laten saya berkembang?"
+      ],
+      "responses": [
+        " Suatu keadaaan dimana sistem kekebalan tubuh orang yang terinfeksi tidak mampu mengeliminasi bakteri Mycobacterium tuberculosis dari tubuh secara sempurna tetapi mampu mengendalikan bakteri TBC sehingga tidak timbul gejala sakit TBC. Orang dengan ILTB apabila dilakukan Tuberculin Skin Test (TST) atau pemeriksaan Interferon Gamma-Release Assay (IGRA) hasilnya akan positif, tetapi hasil pemeriksaan rontgen thorax normal serta hasil pemeriksaan dahak dan Xpert MTB/Rif® negatif"
+      ]
+    },
+    {
+      "tag": "tb_paru",
+      "patterns": [
+        "TB Paru", "TBC paru", "Apa itu TBC paru?", "Apa itu TB paru?", "Apa yang dimaksud dengan tuberkulosis paru?", 
+        "Jelaskan tentang TBC paru.","Bagaimana TBC paru berbeda dari TBC ekstra paru?", "Apa penyebab TBC paru?", 
+        "Bagaimana TBC mempengaruhi paru-paru?", "Bagaimana cara TBC paru menyebar?"
+      ],
+      "responses": [
+        "TB Paru adalah infeksi yang terjadi di paru-paru dan merupakan bentuk yang paling umum dari TBC. Sedangkan Tuberkulosis Ekstra Paru adalah infeksi yang terjadi di luar paru-paru, seperti pada kelenjar getah bening, tulang, otak, dan organ lainnya. Kedua jenis TBC ini memiliki penyebab yang sama tetapi bisa menunjukkan gejala yang berbeda tergantung pada lokasi infeksinya. Penyakit ini menyebar melalui udara ketika seseorang yang terinfeksi TBC batuk, bersin, atau berbicara, dan orang lain menghirup bakteri tersebut."
+      ]
+    }
+    ]
+}
